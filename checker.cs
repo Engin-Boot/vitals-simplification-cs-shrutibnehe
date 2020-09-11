@@ -40,7 +40,7 @@ namespace VitalsCheker
         }
      public void checkVitalIsOk(Alert alert, int vitalvalue)
         {
-            Console.WriteLine(vitalvalue + " " + this.upperLimit);
+            
             if (vitalvalue > this.upperLimit)
             {
                 alert.raiseAlert(vitalName, "HIGH");
